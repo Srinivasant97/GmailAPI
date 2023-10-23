@@ -1,0 +1,21 @@
+{
+    "rule_predicate" : "all",
+    "conditions" : [
+        {
+            "field" : "from_email",
+            "predicate" : "contains",
+            "value" : "hirist.com"
+        },
+        {
+            "field" : "subject",
+            "predicate" : "contains",
+            "value" : "interesting"
+        },
+        {
+            "field" : "created_at",
+            "predicate" : "lesser_than",
+            "value" : "22-10-2023"
+        }
+    ],
+    "actions" : "delete_message"
+}

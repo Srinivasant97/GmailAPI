@@ -1,0 +1,12 @@
+Todo List:
+
+1. Create a Python Script Setup with pipenv
+2. Integrate with Gmail Python Client
+3. Create DB Schemas and Connect with Postgres using external Library
+4. Create a JSON file with name rules. It should have all conditions and actions
+5. Fetch Emails and Store it in DB
+6. From Python Code, use Gmail REST API to do the set of actions
+7. Organise how to run scripts
+8. Write Unit TestCases
+9. Write Readme how to Run it.
+10. Exception Handling
